@@ -11,18 +11,12 @@
     <header class="header">
         <div class="header-container">
             <div class="logo">
-                <svg width="60" height="60" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <!-- 방패 -->
-                    <path d="M 100 20 L 160 50 L 160 120 Q 100 180 100 180 Q 100 180 40 120 L 40 50 Z" fill="none" stroke="#C41E3A" stroke-width="8"/>
-                    <!-- 투구 -->
-                    <circle cx="100" cy="80" r="25" fill="#C41E3A"/>
-                    <path d="M 75 80 L 90 90 M 100 55 L 110 65 M 125 80 L 110 90" stroke="white" stroke-width="3" stroke-linecap="round"/>
-                    <path d="M 85 95 L 95 105 L 115 105 L 125 95" fill="#C41E3A"/>
-                </svg>
+                <img src="logo.png" alt="스파르타 교육학원 로고" class="logo-img">
                 <h1>이은영 스파르타 교육학원</h1>
             </div>
             <nav class="nav">
                 <a href="#home">홈</a>
+                <a href="#about">소개</a>
                 <a href="#achievements">성과</a>
                 <a href="#register">등록</a>
                 <a href="#reviews">리뷰</a>
@@ -32,10 +26,44 @@
 
     <!-- 메인 배너 -->
     <section id="home" class="banner">
+        <div class="banner-overlay"></div>
         <div class="banner-content">
             <h2>우리는 최고의 교육을 제공합니다</h2>
             <p>이은영 스파르타 교육학원에서 여러분의 꿈을 현실로 만들어보세요</p>
             <button class="btn btn-primary" onclick="document.getElementById('register').scrollIntoView({behavior: 'smooth'})">지금 등록하기</button>
+        </div>
+    </section>
+
+    <!-- 소개 섹션 -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>이은영 스파르타 교육학원</h2>
+                    <p>저희 학원은 학생 개개인의 수준과 특성에 맞춘 맞춤형 교육을 제공합니다.</p>
+                    <p>최고의 강사진과 현대적 교육시설을 갖추고 있으며, 학생들의 학력 향상과 꿈의 실현을 위해 최선을 다하고 있습니다.</p>
+                    <div class="features">
+                        <div class="feature-item">
+                            <span class="feature-icon">📚</span>
+                            <h3>체계적 커리큘럼</h3>
+                            <p>검증된 교육과정</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">👨‍🏫</span>
+                            <h3>경험 많은 강사</h3>
+                            <p>최고의 교사진</p>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🎯</span>
+                            <h3>결과 중심</h3>
+                            <p>입시 성공 보장</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1427504494785-cdcb1d0ca933?w=500&h=400&fit=crop" alt="교육 이미지">
+                </div>
+            </div>
         </div>
     </section>
 
@@ -45,19 +73,19 @@
             <h2>우리의 성과</h2>
             <div class="gallery" id="gallery">
                 <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=학원+환경" alt="학원 환경">
+                    <img src="https://images.unsplash.com/photo-1427504494785-cdcb1d0ca933?w=300&h=200&fit=crop" alt="학원 환경">
                     <p>최고의 학습 환경</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=학생+성공" alt="학생 성공">
+                    <img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=300&h=200&fit=crop" alt="학생 성공">
                     <p>우수 학생 배출</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=수상+실적" alt="수상 실적">
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=300&h=200&fit=crop" alt="수상 실적">
                     <p>다양한 수상 경력</p>
                 </div>
                 <div class="gallery-item">
-                    <img src="https://via.placeholder.com/300x200?text=합격+현황" alt="합격 현황">
+                    <img src="https://images.unsplash.com/photo-1432888498266-38c75b13b236?w=300&h=200&fit=crop" alt="합격 현황">
                     <p>높은 합격률</p>
                 </div>
             </div>
